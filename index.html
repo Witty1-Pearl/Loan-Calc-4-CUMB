@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <title>Document</title>
+</head>
+<body style="background-color:rgb(180, 111, 111);">
+ <form name="loandata">      
+    <table class="cont1">
+            <div class="">
+                <tr><td colspan="3" class="cont2"><b>Enter Loan Information:</b></td></tr>
+                <tr>
+                <td class="number">1</td>
+                <td class="text">Amount of the loan (any currency):</td>
+                <td><input type="text" class="loandata" name="principal" size="12"></td>
+                </tr>
+            </div>
+        
+
+            <div>
+                <tr>
+                    <td class="number">2</td>
+                    <td class="text">Annual percentage rate of interest:</td>
+                    <td><input type="text" name="interest" size="12"></td>
+                </tr>
+            </div>
+
+        <div>
+            <tr>
+                <td class="number">3</td>
+                <td class="text">Repayment period in years:</td>
+                <td><input type="text" name="years" size="12"></td>
+            </tr> 
+            
+        </div>
+        <tr><td colspan="3">
+            <input type="button" value="Compute" onclick="calculate();" class="btn">
+        </td></tr> 
+
+        <div>
+            <tr><td colspan="3" class="cont3"> <b>Payment Information:</b> </td></tr>
+            <tr>
+                <td class="number">4</td>
+                <td class="text">Your monthly payment will be:</td>
+                <td><input type="text" name="payment" size="12"></td>
+            </tr>
+        </div>
+            <div>
+                <tr>
+                    <td class="number">5</td>
+                    <td class="text">Your total payment will be:</td>
+                    <td><input type="text" name="total" size="12"></td>
+                </tr>
+            </div>
+
+            <div>
+                <tr>
+                    <td class="number">6</td>
+                    <td class="text">Your total interest payments will be:</td>
+                    <td><input type="text" name="totalinterest" size="12"></td>
+                </tr>
+            </div>
+        
+        </div>
+    </table>
+</form>
+
+      <script src="cumb.js"></script>
+</body>
+</html>

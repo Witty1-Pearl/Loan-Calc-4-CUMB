@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap");
+body {
+  background-image: url(../images/banner1.jpg);
+  width: 100%;
+  height: 100%;
+  margin-left: 30%;
+  margin-top: 120px;
+
+  background-repeat: no-repeat;
+
+  /* background-size: auto;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: #464646;
+  font-family: Arial, Helvetica, sans-serif; */
+}
+
+.cont1{
+  background-image: url(../images/loancalc1.jpg);
+  background-repeat: none;
+  height: 600px;
+  width: 500px;
+  border: 2px solid black;
+  background-color: lightcyan;
+  margin-bottom: 60px;
+  
+}
+
+.cont2{
+  border: 1px transparent;
+  /* border-radius: 20px; */
+  background-color: grey;
+}
+
+.cont3{
+  border: 1px solid black;
+  /* border-radius: 20px; */
+  background-color: grey;
+
+}
+
+.text{
+  color: gold;
+  font-family: fantasy;
+  width:50%;
+
+}
+
+.btn{
+  border: 2px solid lightblue;
+  background-color: lightblue;
+}
+
+input[type="text"]{
+  display:block;
+  width:85%;
+}
+
+.number{
+  color: aliceblue;
+}
